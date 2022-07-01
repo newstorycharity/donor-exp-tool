@@ -1,0 +1,23 @@
+{
+  "name": "donor-exp-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicajhan/donor-exp-tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monicajhan/donor-exp-tool/issues"
+  },
+  "homepage": "https://github.com/monicajhan/donor-exp-tool#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
