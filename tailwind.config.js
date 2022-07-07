@@ -4,8 +4,8 @@ module.exports = {
     './public/index.html',
     './tailwind.config.js/',
     './tailwind-default.config.js',
-    './public/all-events.html',
-    './public/vision-trip.html',
+    './public/events/all-events.html',
+    './public/events/vision-trip.html',
   ],
   theme: {
     extend: {
