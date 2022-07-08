@@ -848,6 +848,10 @@ text-7xl {
   max-width: 56rem;
 }
 
+.max-w-3xl{
+  max-width: 48rem;
+}
+
 .flex-auto{
   flex: 1 1 auto;
 }
@@ -1021,6 +1025,11 @@ text-7xl {
 .bg-cream{
   --tw-bg-opacity: 1;
   background-color: rgb(247 240 234 / var(--tw-bg-opacity));
+}
+
+.bg-cream2{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 251 249 / var(--tw-bg-opacity));
 }
 
 .bg-none{
