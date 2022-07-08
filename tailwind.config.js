@@ -16,6 +16,7 @@ module.exports = {
         builders: '#003E50',
         sage: '#B5C6B5',
         cream: '#F7F0EA',
+        cream2: '#FDFBFA',
         yam: '#CC4E2B',
         footer: '#6c6c6c',
       },
