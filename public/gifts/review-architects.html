@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="../styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+    <div class="fixed z-10 inset-0 overflow-y-auto">
+      <!-- gift type and decription -->
+      <div class="flex items-end sm:items-center justify-center min-h-full p-4 text-center sm:p-0">
+        <div class="relative bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 max-w-xl">
+          <div class="">
+            <div class="bg-lightgray py-6">
+              <h3 class="text-lg text-center leading-6 py-2 font-semibold text-dark" id="modal-title">Review your gift order</h3>
+              <div class="absolute top-0 right-0 pt-4 pr-4">
+                <button type="button" class="bg-lightgray rounded-md text-dark hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-architects">
+                  <span class="sr-only">Close</span>
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <!-- shipping address input fields -->
+            <div class="grid grid-cols-none justify-items-start">
+              <div class="px-8 max-w-lg md:px-10 pt-10">
+                <div class="flex justify-between pb-6">
+                  <label for="shipping" class="block text-left text-lg font-medium text-architects">Shipping Details</label>
+                  <span class="text-sm text-gray-500" id="shipping"></span>
+                </div>
+                <div class="flex justify-between pb-2">
+                  <label for="shipping" class="block text-md font-normal text-dark">Full Name</label>
+                  <span class="text-sm text-gray-500" id="shipping"></span>
+                </div>
+                <div class="flex justify-between pb-2">
+                  <label for="shipping" class="block text-md font-normal text-dark">Address Line 1</label>
+                  <span class="text-sm text-gray-500" id="shipping"></span>
+                </div>
+                <div class="flex justify-between pb-2">
+                  <label for="shipping" class="block text-md font-normal text-dark">City, State, Zip Code</label>
+                  <span class="text-sm text-gray-500" id="shipping"></span>
+                </div>
+              </div>
+              </div>
+                <div class="pt-4 p-10 px-8 md:mt-6 flex items-center justify-center">
+                  <div class="grid grid-cols-1 md:grid md:grid-cols-2 justify-items-center">
+                  <img class="py-10 md:py-0 h-72 w-auto md:h-full md:w-auto" src="../img/product-placeholder.png">
+                  </img>
+                <div class="md:mx-8 text-left">
+                  <h3 class="mt-2 mb-6 text-lg leading-6 font-medium text-architects" id="modal-title">Gift Type</h3>
+                  <div class="mt-2">
+                    <p class="text-md text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur amet labore.</p>
+                  </div>
+                  <div class="mt-6">
+                    <p class="text-md text-gray-500">Qty: 1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- CTA: review order -->
+        <div class="grid grid-cols-none justify-items-center">
+          <button type="button" class="transition delay-300 hover:delay-300 mt-2 mb-10 px-20 md:px-40 py-7 text-md md:text-lg tracking-wider font-medium rounded-sm text-white bg-architects hover:bg-hover2 focus:outline-none focus:ring-none focus:ring-none focus:ring-none">
+            <span>SEND MY GIFT</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</div>

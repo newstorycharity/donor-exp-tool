@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="../styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+  <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+    <div class="fixed z-10 inset-0 overflow-y-auto">
+      <!-- gift type and decription -->
+      <div class="flex items-end sm:items-center justify-center min-h-full p-4 text-center sm:p-0">
+        <div class="relative bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 max-w-xl">
+          <div class="">
+            <div class="bg-lightgray py-6">
+              <h3 class="text-lg text-center leading-6 py-2 font-semibold text-dark" id="modal-title">Verify your shipping address</h3>
+              <div class="absolute top-0 right-0 pt-4 pr-4">
+                <button type="button" class="bg-lightgray rounded-md text-dark hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-builders">
+                  <span class="sr-only">Close</span>
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="pt-4 p-10 px-8 md:mt-10 flex items-center justify-center">
+              <div class="grid grid-cols-1 md:grid md:grid-cols-2 justify-items-center">
+              <img class="py-10 md:py-0 h-72 w-auto md:h-full md:w-auto" src="../img/product-placeholder.png">
+              </img>
+            <div class="md:mx-8 text-left">
+              <h3 class="mt-2 mb-6 text-lg leading-6 font-medium text-dark" id="modal-title">Gift Type</h3>
+              <div class="mt-2">
+                <p class="text-md text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur amet labore.</p>
+              </div>
+              <div class="mt-6">
+                <p class="text-md text-gray-500">Qty: 1</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- shipping address input fields -->
+        <div class="grid grid-cols-none justify-items-center">
+        <div class="px-8 max-w-lg md:px-10 pt-6">
+          <div class="flex justify-between">
+            <label for="email" class="block text-lg font-medium text-dark">Shipping Details</label>
+            <span class="text-sm text-gray-500" id="email-optional"></span>
+          </div>
+          <div class="mt-6">
+            <input type="name" name="name" id="name" class="py-4 pl-2 shadow-sm focus:ring-builders focus:border-builders block w-full text-md border-builders rounded-md" placeholder="Full Name" aria-describedby="full-name">
+          </div>
+          <div class="mt-4">
+            <input type="address" name="address" id="address" class="py-4 pl-2 shadow-sm focus:ring-builders focus:border-builders block w-full text-md border-gray-300 rounded-md" placeholder="Address" aria-describedby="address">
+          </div>
+          <div class="mt-4 mb-10 grid grid-cols-3">
+            <input type="city" name="city" id="city" class="py-4 pl-2 shadow-sm focus:ring-builders focus:border-builders block w-full text-md border-gray-300 rounded-md" placeholder="City" aria-describedby="city">
+            <input type="state" name="state" id="state" class="py-4 pl-2 shadow-sm focus:ring-builders focus:border-builders block w-full text-md border-gray-300 rounded-md" placeholder="State" aria-describedby="state">
+            <input type="zip" name="zip" id="zip" class="py-4 pl-2 shadow-sm focus:ring-builders focus:border-builders block w-full text-md border-gray-300 rounded-md" placeholder="Zip Code" aria-describedby="zip">
+          </div>
+        </div>
+        </div>
+        <!-- CTA: review order -->
+        <div class="grid grid-cols-none justify-items-center">
+          <button type="button" class="transition delay-300 hover:delay-300 mt-2 mb-10 px-20 md:px-36 py-7 text-md md:text-lg tracking-wider font-medium rounded-sm text-white bg-primary hover:bg-hover focus:outline-none focus:ring-none focus:ring-none focus:ring-none">
+            <span>CONTINUE TO REVIEW</span>
+          </button>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</div>
