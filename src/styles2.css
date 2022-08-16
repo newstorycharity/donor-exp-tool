@@ -1,0 +1,62 @@
+@import url('https://use.typekit.net/wtn5owo.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Barlow;
+  }
+  h1 {
+    font-family: Barlow;
+  }
+  h2 {
+    font-family: Barlow;
+  }
+  h3 {
+    font-family: Barlow;
+  }
+  h4 {
+    font-family: Barlow;
+  }
+  p {
+    font-family: Barlow;
+  }
+  span {
+    font-family: Barlow;
+  }
+  text-base {
+    font-family: Barlow;
+  }
+  text-sm {
+      font-family: Barlow;
+  }
+  text-md {
+      font-family: Barlow;
+  }
+  text-lg {
+    font-family: Barlow;
+  }
+  text-xl {
+    font-family: Barlow;
+  }
+  text-2xl {
+    font-family: Barlow;
+  }
+  text-3xl {
+    font-family: Barlow;
+  }
+  text-4xl {
+    font-family: Barlow;
+  }
+  text-5xl {
+    font-family: Barlow;
+  }
+  text-6xl {
+    font-family: Barlow;
+  }
+  text-7xl {
+    font-family: Barlow;
+  }
+}

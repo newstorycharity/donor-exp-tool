@@ -6,6 +6,7 @@ module.exports = {
     './tailwind-default.config.js',
     './public/events/all-events.html',
     './public/events/vision-trip.html',
+    './public/events/vision-summit.html',
     './public/gifts/gifts-landing-page.html',
     './public/gifts/gifts-builders.html',
     './public/gifts/gifts-architects.html',
@@ -39,6 +40,7 @@ module.exports = {
       fontFamily: {
         sans: ['Barlow', 'sans-serif'],
         heading:['Barlow', 'sans-serif'],
+        serif: ['p22-mackinac-pro', 'serif'],
       }
     },
   },

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-css": "tailwindcss build -i src/styles.css -o public/styles.css",
+    "build-css2": "tailwindcss build -i src/styles2.css -o public/styles2.css",
     "watch": "tailwindcss build -i src/styles.css -o public/styles.css --watch",
     "live": "surge --domain ns-experience-templates.surge.sh"
   },
