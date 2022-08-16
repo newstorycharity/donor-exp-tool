@@ -1299,6 +1299,10 @@ text-7xl {
   padding-bottom: 2rem;
 }
 
+.pl-4{
+  padding-left: 1rem;
+}
+
 .pb-24{
   padding-bottom: 6rem;
 }
@@ -1325,6 +1329,10 @@ text-7xl {
 
 .text-center{
   text-align: center;
+}
+
+.font-sans{
+  font-family: Barlow, sans-serif;
 }
 
 .text-lg{
@@ -1452,6 +1460,11 @@ text-7xl {
 .text-yam{
   --tw-text-opacity: 1;
   color: rgb(204 78 43 / var(--tw-text-opacity));
+}
+
+.text-vsyellow{
+  --tw-text-opacity: 1;
+  color: rgb(241 194 50 / var(--tw-text-opacity));
 }
 
 .text-architects{

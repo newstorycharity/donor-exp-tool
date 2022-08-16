@@ -1136,6 +1136,11 @@ text-7xl {
   background-color: rgb(255 251 249 / var(--tw-bg-opacity));
 }
 
+.bg-vsdark{
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+}
+
 .bg-architects{
   --tw-bg-opacity: 1;
   background-color: rgb(80 90 67 / var(--tw-bg-opacity));
@@ -1291,16 +1296,16 @@ text-7xl {
   padding-top: 2.5rem;
 }
 
+.pb-4{
+  padding-bottom: 1rem;
+}
+
 .pb-8{
   padding-bottom: 2rem;
 }
 
-.pb-14{
-  padding-bottom: 3.5rem;
-}
-
-.pb-4{
-  padding-bottom: 1rem;
+.pl-4{
+  padding-left: 1rem;
 }
 
 .pb-24{
@@ -1329,6 +1334,10 @@ text-7xl {
 
 .text-center{
   text-align: center;
+}
+
+.font-sans{
+  font-family: Barlow, sans-serif;
 }
 
 .text-lg{
@@ -1812,9 +1821,9 @@ text-7xl {
     padding-right: 5rem;
   }
 
-  .md\:px-28{
-    padding-left: 7rem;
-    padding-right: 7rem;
+  .md\:py-7{
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
 
   .md\:py-2{
@@ -1848,10 +1857,6 @@ text-7xl {
 
   .md\:pr-20{
     padding-right: 5rem;
-  }
-
-  .md\:text-center{
-    text-align: center;
   }
 
   .md\:text-2xl{
@@ -1931,6 +1936,11 @@ text-7xl {
     padding-right: 2.5rem;
   }
 
+  .lg\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .lg\:pt-28{
     padding-top: 7rem;
   }
@@ -1974,6 +1984,11 @@ text-7xl {
   .xl\:px-40{
     padding-left: 10rem;
     padding-right: 10rem;
+  }
+
+  .xl\:py-20{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .xl\:px-72{

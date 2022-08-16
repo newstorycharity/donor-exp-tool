@@ -7,6 +7,7 @@ module.exports = {
     './public/events/all-events.html',
     './public/events/vision-trip.html',
     './public/events/vision-summit.html',
+    './public/events/vision-summit.html',
     './public/gifts/gifts-landing-page.html',
     './public/gifts/gifts-builders.html',
     './public/gifts/gifts-architects.html',
@@ -36,6 +37,13 @@ module.exports = {
         lightgray: '#f9f9f9',
         yam: '#CC4E2B',
         footer: '#6c6c6c',
+        vsyellow: '#f1c232',
+        vspink: '#d95495',
+        vsblue: '#2fdabc',
+        vslight: '#cfe2f3',
+        vsdark: '#262626',
+        vsmedium: '#383838',
+        vslightgray: '#898989'
       },
       fontFamily: {
         sans: ['Barlow', 'sans-serif'],
