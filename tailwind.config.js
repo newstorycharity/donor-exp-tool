@@ -48,7 +48,7 @@ module.exports = {
       fontFamily: {
         sans: ['Barlow', 'sans-serif'],
         heading:['Barlow', 'sans-serif'],
-        serif: ['p22-mackinac-pro', 'serif'],
+        mackinack: ['p22-mackinac-pro', 'serif'],
       }
     },
   },

@@ -1288,6 +1288,11 @@ text-7xl {
   padding-right: 2.5rem;
 }
 
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -1366,8 +1371,8 @@ text-7xl {
   text-align: center;
 }
 
-.font-sans{
-  font-family: Barlow, sans-serif;
+.font-mackinack{
+  font-family: p22-mackinac-pro, serif;
 }
 
 .text-lg{
