@@ -7,7 +7,7 @@ module.exports = {
     './public/events/all-events.html',
     './public/events/vision-trip.html',
     './public/events/vision-summit.html',
-    './public/events/vision-summit.html',
+    './public/events/vision-summit-2.html',
     './public/gifts/gifts-landing-page.html',
     './public/gifts/gifts-builders.html',
     './public/gifts/gifts-architects.html',
@@ -43,7 +43,7 @@ module.exports = {
         vslight: '#cfe2f3',
         vsdark: '#262626',
         vsmedium: '#383838',
-        vslightgray: '#898989'
+        vslightgray: '#898989',
       },
       fontFamily: {
         sans: ['Barlow', 'sans-serif'],
