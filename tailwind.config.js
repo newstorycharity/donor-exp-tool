@@ -7,6 +7,7 @@ module.exports = {
     './public/events/all-events.html',
     './public/events/vision-trip.html',
     './public/events/vision-summit-bw.html',
+    './public/events/vision-summit-color.html',
     './public/events/vision-summit-dinner.html',
     './public/gifts/gifts-landing-page.html',
     './public/gifts/gifts-builders.html',
