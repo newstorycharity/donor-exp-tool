@@ -49,6 +49,7 @@ module.exports = {
         sans: ['Barlow', 'sans-serif'],
         heading:['Barlow', 'sans-serif'],
         mackinack: ['p22-mackinac-pro', 'serif'],
+        condensed: ['Barlow Semi Condensed', 'sans-serif'],
       }
     },
   },
