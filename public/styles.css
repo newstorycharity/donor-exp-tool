@@ -1110,6 +1110,16 @@ text-7xl {
   border-color: rgb(0 186 224 / var(--tw-border-opacity));
 }
 
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-black{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .border-builders{
   --tw-border-opacity: 1;
   border-color: rgb(0 62 80 / var(--tw-border-opacity));
@@ -1190,6 +1200,10 @@ text-7xl {
   background-color: rgb(249 249 249 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-25{
+  --tw-bg-opacity: 0.25;
+}
+
 .bg-opacity-75{
   --tw-bg-opacity: 0.75;
 }
@@ -1200,6 +1214,10 @@ text-7xl {
 
 .bg-cover{
   background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
 }
 
 .bg-center{
@@ -1343,12 +1361,20 @@ text-7xl {
   padding-bottom: 2rem;
 }
 
-.pb-24{
-  padding-bottom: 6rem;
+.pt-14{
+  padding-top: 3.5rem;
 }
 
 .pt-4{
   padding-top: 1rem;
+}
+
+.pb-14{
+  padding-bottom: 3.5rem;
+}
+
+.pb-24{
+  padding-bottom: 6rem;
 }
 
 .pr-4{
@@ -1403,6 +1429,11 @@ text-7xl {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-semibold{
@@ -1502,9 +1533,14 @@ text-7xl {
   color: rgb(204 78 43 / var(--tw-text-opacity));
 }
 
-.text-vsblue{
+.text-vsdark{
   --tw-text-opacity: 1;
-  color: rgb(47 218 188 / var(--tw-text-opacity));
+  color: rgb(38 38 38 / var(--tw-text-opacity));
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-architects{
@@ -1591,6 +1627,11 @@ text-7xl {
   transition-delay: 300ms;
 }
 
+.hover\:border-black:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .hover\:bg-hover:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(57 147 176 / var(--tw-bg-opacity));
@@ -1599,6 +1640,11 @@ text-7xl {
 .hover\:bg-primary:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(0 186 224 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-black:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-hover2:hover{
@@ -1841,6 +1887,10 @@ text-7xl {
 
   .md\:max-w-5xl{
     max-width: 64rem;
+  }
+
+  .md\:max-w-7xl{
+    max-width: 80rem;
   }
 
   .md\:flex-auto{
