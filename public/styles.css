@@ -1884,10 +1884,6 @@ text-7xl {
     max-width: 32rem;
   }
 
-  .md\:max-w-5xl{
-    max-width: 64rem;
-  }
-
   .md\:max-w-7xl{
     max-width: 80rem;
   }
